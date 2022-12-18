@@ -111,3 +111,17 @@
     height: 460px;
     transform: translate(-60%,-30%);
 }
+
+/* Code was not obtained from any specific website */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    bottom: 0;
+    background-color: #DC052D;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+} 
