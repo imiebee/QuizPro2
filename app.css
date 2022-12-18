@@ -111,3 +111,49 @@
     height: 460px;
     transform: translate(-60%,-30%);
 }
+
+/* Code not from any specific website */
+.sub p {
+    display: flex;
+    width: 900px;
+    margin: 30px auto;
+    font-size: 30px;
+    text-align: center;
+    color: #6d696ad0;
+}
+
+.instructions {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    color: #6d696a;
+}
+
+.btn {
+    display: flex;
+    font-size: 30px;
+    padding: 10px 0;
+    width: 300px;
+    height: 80px;
+    margin: 30px auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #DC052D;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 1.4px 10.4px 0 #6d696aa9;
+    transform: translateY(-1px);
+    transition: transform 150ms;
+    color: #DC052D;
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
