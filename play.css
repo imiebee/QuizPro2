@@ -112,6 +112,68 @@
     transform: translate(-60%,-30%);
 }
 
+/* Code based on the JS course I am doing with Udemy  */
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px auto;
+    padding: 10px;
+    width: 600px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-prefix {
+    text-align: center;
+    font-size: 20px;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 10px; 
+    width: 80%;
+    font-size: 20px; 
+    border: 1px solid #6d696a36;
+    background-color: #6d696a36;
+    height: 40px;
+    align-content: center;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 1.4px 10.4px 0 #6d696aa9;
+    transform: translateY(-1px);
+    transition: transform 150ms;
+    color: #DC052D;
+}
+
+.choice-prefix {
+    height: 40px;
+    width: 40px;
+    padding: 4px 4px;
+    background-color: #DC052D;
+    color: white;
+    text-align: center;
+} 
+
+.choice-text {
+    padding: 5px;
+    width: 100%;
+}
+
 /* Code was not obtained from any specific website */
 .footer {
     position: fixed;
