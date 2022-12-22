@@ -113,6 +113,8 @@
 }
 
 /* Code not from any specific website */
+
+
 .sub p {
     display: flex;
     width: 900px;
@@ -152,12 +154,6 @@
     color: #DC052D;
 }
 
-.btn[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
-}
-
 .footer {
     position: fixed;
     bottom: 0;
@@ -170,3 +166,95 @@
     font-size: 18px;
     text-align: center;
 } 
+
+@media only screen and (max-width: 768px) {
+    .header {
+        font-size: 35px;
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    #menu-bar {
+        width: 35px;
+        height: 30px;
+        margin: 15px 0 10px 10px;
+        cursor: pointer;
+    }
+
+    .sub p {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        height: auto;
+        padding-top: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .instructions {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        height: auto;
+        padding-top: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 10px 0;
+        width: 200px;
+        height: 60px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header {
+        font-size: 20px;
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    #menu-bar {
+        width: 20px;
+        height: 20px;
+        margin: 10px 0 5px 5px;
+        cursor: pointer;
+    }
+
+    .sub p {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        height: auto;
+        padding-top: 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .instructions {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        height: auto;
+        padding-top: 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .btn {
+        font-size: 15px;
+        padding: 5px 0;
+        width: 150px;
+        height: 50px;
+        margin: 10px auto;
+        text-align: center;
+    }
+}
