@@ -187,3 +187,35 @@
     font-size: 18px;
     text-align: center;
 } 
+
+.correct {
+    background-color: rgba(0, 128, 0, 0.856);
+}
+
+/* Code was not obtained for any specific website */
+.container-end { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px auto;
+    padding: 10px;
+    width: 600px;
+    height: 250px;
+}
+
+.yourScore {
+    display: flex;
+    margin: 30px auto;
+    font-size: 25px;
+    justify-content: center;
+    color: #6d696a;
+}
+
+#finalScore {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #DC052D;
+}
+
