@@ -133,6 +133,7 @@
 
 #item {
     display: flex;
+    margin: 10px;
     justify-content: space-between;
 }
 
@@ -143,7 +144,7 @@
 
 .choice-container {
     display: flex;
-    margin-bottom: 10px; 
+    margin: 10px; 
     width: 80%;
     font-size: 20px; 
     border: 1px solid #6d696a36;
@@ -172,6 +173,11 @@
 .choice-text {
     padding: 5px;
     width: 100%;
+}
+
+#question {
+    display: flex;
+    margin: 10px;
 }
 
 /* Code was not obtained from any specific website */
@@ -221,7 +227,7 @@
 
 @media only screen and (max-width: 768px) {
     .header {
-        font-size: 30px;
+        font-size: 35px;
         display: flex;
         width: 100%;
         height: auto;
@@ -234,30 +240,27 @@
         margin: 15px 0 10px 10px;
         cursor: pointer;
     }
-
-    .sub p {
+    .container { 
         display: flex;
-        width: 100%;
-        margin: 15px auto;
-        font-size: 25px;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+        padding: 10px;
+        width: auto;
     }
-
-    .instructions {
+    .item-prefix {
+        text-align: center;
+        font-size: 15px;
+    }
+    .choice-container {
         display: flex;
-        width: 100%;
-        margin: 0 auto;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .btn {
-        font-size: 20px;
-        padding: 10px 0;
-        width: 200px;
-        height: 60px;
-        margin: 20px auto;
-        text-align: center;
+        margin-bottom: 10px; 
+        width: 80%;
+        font-size: 12px; 
+        border: 1px solid #6d696a36;
+        background-color: #6d696a36;
+        height: 40px;
+        align-content: center;
     }
 }
 
@@ -272,35 +275,10 @@
     }
 
     #menu-bar {
-        width: 25px;
+        width: 20px;
         height: 20px;
         margin: 10px 0 5px 5px;
         cursor: pointer;
     }
 
-    .sub p {
-        display: flex;
-        width: 100%;
-        margin: 10px auto;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .instructions {
-        display: flex;
-        width: 100%;
-        margin: 0 auto;
-        font-size: 15px;
-        text-align: center;
-        color: #6d696a;
-    }
-    .btn {
-        font-size: 15px;
-        padding: 5px 0;
-        width: 150px;
-        height: 50px;
-        margin: 10px auto;
-        text-align: center;
-    }
-}
-
+    
