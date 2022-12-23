@@ -65,3 +65,5 @@ Coded with the user in mind this game is easy to navigate and the instructions o
     To fix these errors I installed Node.js and ran the global install command.  In VSCode I installed JShint extention and added "jshint.options" : {"esversion": 6} to the setting in json file.
     
 ### Deployment
+
+The quiz was created using Visual Studio Code.  A local git repository was created for version control and then pushed onto the remote repository on Github. Code in VSCode was added to the local repo and then pushed onto the remote repo using regular commits.  The completed project was made live using Github Pages. 
