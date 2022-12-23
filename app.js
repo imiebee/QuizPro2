@@ -8,7 +8,7 @@ function menuOnClick() {
 /* Code based on JS course I am doing with Udemy  */
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
-const questionCounterText = document.getElementById('questionCounter');
+const questionCounterText = document.getElementById("questionCounter");
 const scoreText = document.getElementById('score');
 let acceptingAnswers = false;
 let score = 0;
@@ -109,17 +109,17 @@ let questions = [
   },
   ];
 
-  const CORRECT_BONUS = 1;
+const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = 10;
 
-function startGame () {
+startGame = () => {
   questionCounter = 0;
   score = 0;
   availableQuestions = [...questions];
   getNewQuestion();
-}
+};
 
-function getNewQuestion () {
+getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
       window.localStorage.setItem("mostRecentScore", score);
       return window.location.assign("/end.html");
@@ -137,7 +137,7 @@ function getNewQuestion () {
 
   availableQuestions.splice(questionIndex, 1);
   acceptingAnswers = true;
-}
+};
 
 choices.forEach(choice => {
   choice.addEventListener("click", e => {
