@@ -54,20 +54,14 @@ Coded with the user in mind this game is easy to navigate and the instructions o
 - Fonts [Google Fonts](https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap)
 
 ### Code Validation
-<<<<<<< HEAD
-- HTML - no errors found
-- CSS - no errors found
-- JS - errors found
-=======
+
 - HTML - no errors were encountered
 - CSS - no errors were encountered
 - JS - ES6 
-
-
->>>>>>> 725675993161b336f3293c4119100b98f529e601
-    
+  
        "let" is available in ES6(use 'version6)
        "const" is available in ES6(use 'version6)
+
     To fix these errors I installed Node.js and ran the global install command.  In VSCode I installed JShint extention and added "jshint.options" : {"esversion": 6} to the setting in json file.
     
-###
+### Deployment
